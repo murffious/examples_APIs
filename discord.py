@@ -19,8 +19,8 @@ def keep_alive():
 # Once deployed, the server will continue to run in the background, even after you close the browser tab. The server will stay awake and active until an hour after its last request, after which it will enter a sleeping stage. Sleeping repls will be woken up as soon as it receives another request; there is no need to re-run the repl. However, if you make changes to your server, you will need to restart the repl in order to see those changes reflected in the live version. Possible paid to keep not sleeping
 
 
-# Second file ON REPLIT https://repl.it/@PaulMurff/keepalivepy#main.py
-# .env file with TOKEN= 
+# Second file main.py  ON REPLIT https://repl.it/@PaulMurff/keepalivepy#main.py
+# third file .env file with TOKEN= 
 import discord
 import os
 import requests
